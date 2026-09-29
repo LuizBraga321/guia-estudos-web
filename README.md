@@ -1,19 +1,57 @@
 # Guia de Estudos Web
 
-Projeto desenvolvido em HTML para praticar os conteúdos estudados em aula.
+Este projeto foi desenvolvido com o objetivo de criar um site útil para ajudar na organização dos estudos de HTML.
 
-## Páginas
+O site foi feito utilizando apenas HTML.
 
-- Início
-- Guia de HTML
-- Rotina de estudos
-- Planejamento
+## Sobre o projeto
 
-## Pastas
+O projeto funciona como um guia de estudos, reunindo informações sobre HTML, organização da rotina e planejamento.
 
-- `html/`: páginas do site
-- `img/`: imagens
-- `audio/`: áudio utilizado no projeto
-- `video/`: pasta reservada para vídeos
+O site possui quatro páginas:
 
-Para abrir o projeto, basta executar o arquivo `index.html` no navegador.
+- **Início:** apresenta o objetivo do projeto e algumas informações gerais.
+- **Guia de HTML:** reúne conteúdos e exemplos relacionados às principais tags HTML.
+- **Rotina de estudos:** apresenta sugestões para organizar os estudos e acompanhar o progresso.
+- **Planejamento:** possui um formulário para ajudar o usuário a organizar seus estudos.
+
+## Recursos utilizados
+
+Durante o desenvolvimento foram utilizados vários recursos do HTML, como:
+
+- Estrutura semântica com `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`;
+- Tabelas;
+- Formulários;
+- `details` e `summary`;
+- `figure` e `figcaption`;
+- `progress` e `meter`;
+- `blockquote` e `cite`;
+- Tags como `abbr`, `mark`, `del` e `ins`;
+- Imagens locais;
+- Áudio local;
+- Links para navegação entre as páginas.
+
+## Organização das pastas
+
+O projeto está organizado da seguinte forma:
+
+```text
+guia-estudos-web/
+│
+├── index.html
+├── README.md
+│
+├── html/
+│   ├── guia.html
+│   ├── rotina.html
+│   └── planejamento.html
+│
+├── img/
+│   ├── caminhos.svg
+│   ├── estrutura.svg
+│   └── favicon.svg
+│
+├── audio/
+│   └── inicio-estudo.wav
+│
+└── video/
