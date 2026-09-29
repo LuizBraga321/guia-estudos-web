@@ -15,5 +15,3 @@ Projeto desenvolvido em HTML para praticar os conteúdos estudados em aula.
 - `img/`: imagens
 - `audio/`: áudio utilizado no projeto
 - `video/`: pasta reservada para vídeos
-
-Para abrir o projeto, basta executar o arquivo `index.html` no navegador.
