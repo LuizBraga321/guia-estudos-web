@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Braga">
+  <meta name="description" content="Guia de estudos de HTML">
+  <title>Guia de HTML | Guia de Estudos Web</title>
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+
+</head>
+
+<body>
+
+  <a href="#conteudo">Ir para o conteúdo</a>
+
+  <header>
+
+    <p>
+
+      <strong>Guia de Estudos Web</strong>
+
+    </p>
+
+    <nav aria-label="Menu principal">
+
+      <ul>
+
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../html/guia.html" aria-current="page">Guia de HTML</a></li>
+        <li><a href="../html/rotina.html">Rotina de estudos</a></li>
+        <li><a href="../html/planejamento.html">Planejamento</a></li>
+
+      </ul>
+
+    </nav>
+
+    <hr>
+
+  </header>
+
+  <main id="conteudo">
+
+    <h1>Guia de HTML</h1>
+
+    <p>
+
+      Use os exemplos como ponto de partida e altere o conteúdo para entender o papel de cada elemento.
+
+    </p>
+
+    <section>
+
+      <h2>Estrutura e significado</h2>
+
+      <article>
+
+        <h3>O que cada região faz</h3>
+
+        <dl>
+
+          <dt><code>header</code></dt>
+          <dd>Apresenta o cabeçalho de uma página ou seção.</dd>
+          <dt><code>nav</code></dt>
+          <dd>Reúne os principais links de navegação.</dd>
+          <dt><code>main</code></dt>
+          <dd>Identifica o conteúdo principal da página.</dd>
+          <dt><code>section</code></dt>
+          <dd>Agrupa conteúdo sobre um tema, normalmente com um título.</dd>
+          <dt><code>article</code></dt>
+          <dd>Representa conteúdo que faz sentido de forma independente.</dd>
+          <dt><code>aside</code></dt>
+          <dd>Contém informações complementares ao assunto principal.</dd>
+          <dt><code>footer</code></dt>
+          <dd>Apresenta informações finais, como autoria e links relacionados.</dd>
+
+        </dl>
+
+        <p>
+
+          Uma tag semântica não posiciona automaticamente o conteúdo em colunas. <code>aside</code>, por exemplo, pode
+          aparecer abaixo do texto e continuar semanticamente correto.
+
+        </p>
+
+      </article>
+
+      <article>
+
+        <h3>Seu primeiro conjunto de elementos</h3>
+
+        <pre><code>&lt;article&gt;
+  &lt;h2&gt;Meu primeiro estudo&lt;/h2&gt;
+  &lt;p&gt;Hoje aprendi a criar um link.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+
+        <p>
+
+          Observe a abertura, o conteúdo e o fechamento. A indentação ajuda a enxergar quais elementos estão dentro dos
+          outros.
+
+        </p>
+
+      </article>
+
+    </section>
+
+    <section>
+
+      <h2>Links e caminhos</h2>
+
+      <article>
+
+        <h3>Como chegar a um arquivo</h3>
+
+        <figure>
+
+          <img src="../img/caminhos.svg" width="280" height="300"
+            alt="A raiz contém index.html e as pastas html, img, audio e video. guia.html fica dentro de html; estrutura.svg fica dentro de img.">
+          <figcaption>Organização do projeto. Partindo de html/guia.html, ../img/estrutura.svg sobe uma pasta e entra em
+            img.</figcaption>
+
+        </figure>
+
+        <p>
+
+          <code>../</code> significa subir um nível de pasta. A partir desta página, <code>../index.html</code> leva ao
+          início.
+
+        </p>
+
+      </article>
+
+    </section>
+
+    <aside>
+
+      <h2>Não confunda</h2>
+
+      <p>
+
+        <code>head</code> guarda metadados do documento. <code>header</code> identifica um cabeçalho dentro do conteúdo
+        da página.
+
+      </p>
+
+    </aside>
+
+  </main>
+
+  <footer>
+
+    <hr>
+
+    <p>
+
+      Guia de Estudos Web · Projeto acadêmico de Davi · 2026
+
+    </p>
+
+    <p>
+
+      <a href="#conteudo">Voltar ao conteúdo</a> · <a href="../html/planejamento.html#fontes">Fontes e autoria</a>
+
+    </p>
+
+  </footer>
+
+</body>
+
+</html>

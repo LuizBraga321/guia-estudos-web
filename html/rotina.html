@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Braga">
+  <meta name="description" content="Guia de estudos de HTML">
+  <title>Rotina de estudos | Guia de Estudos Web</title>
+  <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+
+</head>
+
+<body>
+
+  <a href="#conteudo">Ir para o conteúdo</a>
+
+  <header>
+
+    <p>
+
+      <strong>Guia de Estudos Web</strong>
+
+    </p>
+
+    <nav aria-label="Menu principal">
+
+      <ul>
+
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../html/guia.html">Guia de HTML</a></li>
+        <li><a href="../html/rotina.html" aria-current="page">Rotina de estudos</a></li>
+        <li><a href="../html/planejamento.html">Planejamento</a></li>
+
+      </ul>
+
+    </nav>
+
+    <hr>
+
+  </header>
+
+  <main id="conteudo">
+
+    <h1>Rotina de estudos</h1>
+
+    <p>
+
+      Escolha um exercício pequeno e reserve tempo para conferir o resultado. Você pode adaptar as durações à sua
+      disponibilidade.
+
+    </p>
+
+    <section id="roteiro">
+
+      <h2>Uma sessão em três etapas</h2>
+
+      <article>
+
+        <h3>Ler, construir e revisar</h3>
+
+        <ol>
+
+          <li><strong>Ler:</strong> escolha um conceito do guia e explique com suas palavras.</li>
+          <li><strong>Construir:</strong> escreva um exemplo em um arquivo HTML.</li>
+          <li><strong>Revisar:</strong> abra o arquivo, teste os links e confira o código.</li>
+
+        </ol>
+
+        <p>
+
+          Exemplo de ajuste no plano: <del>apenas reler os slides</del> <ins>ler os slides e construir uma página de
+            prática</ins>.
+
+        </p>
+
+      </article>
+
+    </section>
+
+    <section>
+
+      <h2>Dados dos materiais da disciplina</h2>
+
+      <p>
+
+        A tabela apresenta três materiais reais e suas quantidades de páginas, contadas nos PDFs disponibilizados.
+
+      </p>
+
+      <table>
+
+        <caption>Materiais para revisão — três colunas e três linhas de dados</caption>
+
+        <thead>
+
+          <tr>
+
+            <th scope="col">Material</th>
+            <th scope="col">Páginas</th>
+            <th scope="col">Assunto de revisão</th>
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+          <tr>
+
+            <th scope="row">Aula 03 — Introdução a HTML</th>
+            <td>57</td>
+            <td>Estrutura e elementos básicos</td>
+
+          </tr>
+
+          <tr>
+
+            <th scope="row">Aula 05 — Introdução a HTML Parte 2</th>
+            <td>57</td>
+            <td>Tabelas e formulários</td>
+
+          </tr>
+
+          <tr>
+
+            <th scope="row">HTML AVANÇADO</th>
+            <td>34</td>
+            <td>Semântica, mídia e marcação</td>
+
+          </tr>
+
+        </tbody>
+
+        <tfoot>
+
+          <tr>
+
+            <th scope="row" colspan="2">Total de páginas dos três materiais</th>
+            <td>148</td>
+
+          </tr>
+
+        </tfoot>
+
+      </table>
+
+    </section>
+
+    <section>
+
+      <h2>Entenda dois indicadores</h2>
+
+      <p>
+
+        Exemplo de uma revisão com duas de quatro etapas concluídas:
+
+      </p>
+
+      <label for="revisao">Progresso da revisão: 2 de 4 etapas</label>
+      <progress id="revisao" value="2" max="4">50%</progress>
+
+      <p>
+
+        Exemplo de um exercício com oito de dez respostas corretas:
+
+      </p>
+      <label for="acertos">Acertos: 8 de 10</label>
+      <meter id="acertos" min="0" max="10" low="5" high="8" optimum="10" value="8">8 de 10</meter>
+
+      <p>
+
+        O progresso representa uma tarefa em andamento. O medidor representa uma medida dentro de um intervalo. Estes
+        valores são exemplos fixos, não acompanham seu desempenho automaticamente.
+
+      </p>
+
+    </section>
+
+    <section>
+
+      <h2>Sinal para iniciar a prática</h2>
+
+      <p>
+
+        Prepare o material e, se desejar, reproduza o sinal curto antes de começar. Ele contém três notas
+        instrumentais, sem fala.
+
+      </p>
+
+      <audio controls preload="metadata">
+
+        <source src="../audio/inicio-estudo.wav" type="audio/wav">Seu navegador não suporta áudio. <a
+          href="../audio/inicio-estudo.wav">Baixe o sinal</a>.
+
+      </audio>
+
+      <p>
+
+        Alternativa visual: escolha o exercício, abra o editor e comece. Nenhuma informação do guia depende de ouvir o
+        áudio.
+
+      </p>
+
+      <details>
+
+        <summary>Como verificar se terminei?</summary>
+
+        <ul>
+
+          <li>O documento tem título e idioma?</li>
+          <li>Todos os links internos abrem?</li>
+          <li>As imagens têm texto alternativo?</li>
+          <li>Os campos possuem rótulos?</li>
+
+        </ul>
+
+      </details>
+
+    </section>
+
+    <aside>
+
+      <h2>Próxima revisão</h2>
+
+      <p>
+
+        Anote um único ponto que você ainda não consegue explicar e retome esse assunto na sessão seguinte.
+
+      </p>
+
+    </aside>
+
+  </main>
+
+  <footer>
+
+    <hr>
+
+    <p>
+
+      Guia de Estudos Web · Projeto acadêmico de Davi · 2026
+
+    </p>
+
+    <p>
+
+      <a href="#conteudo">Voltar ao conteúdo</a> · <a href="../html/planejamento.html#fontes">Fontes e autoria</a>
+
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
